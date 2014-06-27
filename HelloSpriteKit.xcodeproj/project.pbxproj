@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35D424A0194E9A5D0071C493 /* PlaygroundScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D4249F194E9A5D0071C493 /* PlaygroundScene.swift */; };
+		35D424A2194E9C420071C493 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D424A1194E9C420071C493 /* Helpers.swift */; };
 		35F6B738194BD9600003ACAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6B737194BD9600003ACAE /* AppDelegate.swift */; };
 		35F6B73A194BD9600003ACAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F6B739194BD9600003ACAE /* Images.xcassets */; };
 		35F6B746194BD9600003ACAE /* HelloSpriteKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6B745194BD9600003ACAE /* HelloSpriteKitTests.swift */; };
+		35F6B750194BD98F0003ACAE /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6B74F194BD98E0003ACAE /* RootViewController.swift */; };
+		35F6B752194BDA880003ACAE /* HelloScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6B751194BDA880003ACAE /* HelloScene.swift */; };
+		35F6B754194BDD1E0003ACAE /* SpaceshipScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F6B753194BDD1E0003ACAE /* SpaceshipScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35295119194C0AAF0088CB9B /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		35D4249F194E9A5D0071C493 /* PlaygroundScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundScene.swift; sourceTree = "<group>"; };
+		35D424A1194E9C420071C493 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		35F6B732194BD9600003ACAE /* HelloSpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSpriteKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F6B736194BD9600003ACAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35F6B737194BD9600003ACAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +38,9 @@
 		35F6B73F194BD9600003ACAE /* HelloSpriteKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloSpriteKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F6B744194BD9600003ACAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35F6B745194BD9600003ACAE /* HelloSpriteKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSpriteKitTests.swift; sourceTree = "<group>"; };
+		35F6B74F194BD98E0003ACAE /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		35F6B751194BDA880003ACAE /* HelloScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloScene.swift; sourceTree = "<group>"; };
+		35F6B753194BDD1E0003ACAE /* SpaceshipScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceshipScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +85,12 @@
 				35F6B737194BD9600003ACAE /* AppDelegate.swift */,
 				35F6B739194BD9600003ACAE /* Images.xcassets */,
 				35F6B735194BD9600003ACAE /* Supporting Files */,
+				35F6B74F194BD98E0003ACAE /* RootViewController.swift */,
+				35F6B751194BDA880003ACAE /* HelloScene.swift */,
+				35F6B753194BDD1E0003ACAE /* SpaceshipScene.swift */,
+				35295119194C0AAF0088CB9B /* MyPlayground.playground */,
+				35D4249F194E9A5D0071C493 /* PlaygroundScene.swift */,
+				35D424A1194E9C420071C493 /* Helpers.swift */,
 			);
 			path = HelloSpriteKit;
 			sourceTree = "<group>";
@@ -152,6 +169,7 @@
 				TargetAttributes = {
 					35F6B731194BD9600003ACAE = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = A45WY99R85;
 					};
 					35F6B73E194BD9600003ACAE = {
 						CreatedOnToolsVersion = 6.0;
@@ -200,6 +218,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D424A0194E9A5D0071C493 /* PlaygroundScene.swift in Sources */,
+				35D424A2194E9C420071C493 /* Helpers.swift in Sources */,
+				35F6B752194BDA880003ACAE /* HelloScene.swift in Sources */,
+				35F6B754194BDD1E0003ACAE /* SpaceshipScene.swift in Sources */,
+				35F6B750194BD98F0003ACAE /* RootViewController.swift in Sources */,
 				35F6B738194BD9600003ACAE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,9 +330,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HelloSpriteKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -318,9 +344,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HelloSpriteKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -379,6 +408,7 @@
 				35F6B74B194BD9600003ACAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35F6B74C194BD9600003ACAE /* Build configuration list for PBXNativeTarget "HelloSpriteKitTests" */ = {
 			isa = XCConfigurationList;
@@ -387,6 +417,7 @@
 				35F6B74E194BD9600003ACAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
